@@ -16,7 +16,7 @@ README
     The program will output today's payer. When asked for extra info, answer yes or no accordingly.
 
     IMPORTANT NOTE:
-    It is difficult to allow every person to pay exactly the amount of money they should be paying without making the total number of days in one paying cycle a very big     number. This is because we ideally want to match the ratio of price per person to total price to the ratio of days each person pays to the total number of days in one cycle. However, the second ratio requires whole numbers in the numerator and denominator, so scaling the prices to whole numbers would make the total number of days a very big number. 
+    It is difficult to allow every person to pay exactly the amount of money they should be paying without making the total number of days in one paying cycle a very big number. This is because we ideally want to match the     ratio of price per person to total price to the ratio of days each person pays to the total number of days in one cycle. However, the second ratio requires whole numbers in the numerator and denominator, so scaling the     prices to whole numbers would make the total number of days a very big number. 
 
     Thus, to simplify the program slightly, we round each price to the nearest $.5. In doing so, the total number of days will not become too long. To be transparent about this modification, we calculate the total number of money a person overpays/underpays per day. This value can be seen be answering "Y" to the "EXTRA INFO?" prompt. 
 

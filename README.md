@@ -21,7 +21,8 @@ README
     However, the second ratio requires whole numbers in the numerator and denominator, so scaling the prices to whole numbers would make the total number of days a very big number. 
 
     Thus, to simplify the program slightly, we round each price to the nearest $.5. In doing so, the total number of days will not become too long. 
-    To be transparent about this modification, we calculate the total number of money a person overpays/underpays per day. This value can be seen by answering "Y" to the "EXTRA INFO?" prompt. 
+    To be transparent about this modification, we calculate the total number of money a person overpays/underpays per day. 
+    This value can be seen by answering "Y" to the "EXTRA INFO?" prompt. 
 
     OTHER FILES:
     I process.ipynb to test out my code in smaller parts. # coffee_bertram

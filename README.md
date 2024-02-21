@@ -25,4 +25,4 @@ README
     This value can be seen by answering "Y" to the "EXTRA INFO?" prompt. 
 
     OTHER FILES:
-    I process.ipynb to test out my code in smaller parts. # coffee_bertram
+    I used process.ipynb to test out my code in smaller parts. # coffee_bertram
